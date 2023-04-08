@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 const SignUp = () => {
 
     return (
         <>
             <h1>Welcome to sign-up page</h1>
             <p>sign up with email</p>
-            <li><a href={`welcome`}>Back to Home</a></li>
+            <li><Link to={`/welcome`}>Back to Home</Link></li>
 
         </>
     )
