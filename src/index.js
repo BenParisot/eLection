@@ -9,6 +9,8 @@ import ErrorPage from './global_components/error_page';
 import Landing from './login/Landing';
 import Login from './login/Login';
 import SignUp from './login/SignUp';
+import Dashboard from './dashboard/Dashboard';
+import NewElection from './election_setup/NewElection';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
   {
     path: "sign-up",
     element: <SignUp />
+  },
+  {
+    path: "dashboard",
+    element: <Dashboard />
+  },
+  {
+    path: "new-election",
+    element: <NewElection />
   }
 ])
 

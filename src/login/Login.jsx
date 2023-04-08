@@ -4,8 +4,8 @@ const Login = () => {
 
     return (
         <>
-            <h1>Welcome to sign-up page</h1>
-            <p>sign up with email</p>
+            <h1>Welcome to login page</h1>
+            <p><Link to={`/dashboard`}>login with email</Link></p>
             <li><Link to={`/welcome`}>Back to Home</Link></li>
 
         </>
