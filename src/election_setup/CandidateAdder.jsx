@@ -8,7 +8,7 @@ const CandidateAdder = () => {
                 <input type="name"></input>
                 <label>candidate name</label>
                 <input type="name"></input>
-                <button type="submit">Next</button >
+                <button type="submit">Continue</button >
             </form>
         </>
     )
