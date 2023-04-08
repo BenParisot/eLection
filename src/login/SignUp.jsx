@@ -1,4 +1,4 @@
-const Login = () => {
+const SignUp = () => {
 
     return (
         <>
@@ -10,4 +10,4 @@ const Login = () => {
     )
 }
 
-export default Login;
+export default SignUp;

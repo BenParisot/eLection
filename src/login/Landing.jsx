@@ -1,12 +1,12 @@
-import ReactRouter
-
 const Landing = () => {
 
     return (
         <>
             <h1>Landing page</h1>
-            <p>Sign-Up</p>
-            <p>Login</p>
+            <a href={`sign-up`}><p>Sign-Up</p></a>
+            <a href={`login`}><p>Login</p></a>
         </>
     )
 }
+
+export default Landing;
