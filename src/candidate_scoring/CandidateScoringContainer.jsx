@@ -1,5 +1,14 @@
 
 const CandidateScoringContainer = () => {
+
+    // user chooses candidate to score from list view
+
+    // CandidateScorer loads
+
+    // user scores candidate and saves
+
+    // screen returns to candidate list view
+
     return (
         <>
             <h1>Choose a candidate</h1>

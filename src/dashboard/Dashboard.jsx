@@ -6,7 +6,7 @@ const Dashboard = () => {
             <h1>Dashboard hoory</h1>
             <ul>
                 <li><Link to={`/new-election`}>Set-Up a New Election</Link></li>
-                <li>Option 2</li>
+                <li><Link to={`/score`}>Score Candidates</Link></li>
             </ul>
         </>
     )

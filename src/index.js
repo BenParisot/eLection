@@ -11,6 +11,7 @@ import Login from './login/Login';
 import SignUp from './login/SignUp';
 import Dashboard from './dashboard/Dashboard';
 import NewElection from './election_setup/NewElection';
+import CandidateScoringContainer from './candidate_scoring/CandidateScoringContainer'
 
 const router = createBrowserRouter([
   {
@@ -37,7 +38,11 @@ const router = createBrowserRouter([
   {
     path: "new-election",
     element: <NewElection />
-  }
+  },
+  {
+    path: "score",
+    element: <CandidateScoringContainer />
+  },
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

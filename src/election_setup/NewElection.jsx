@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 const NewElection = () => {
     return (
         <>
@@ -10,6 +10,7 @@ const NewElection = () => {
                 <input type="date"></input>
                 <button type="submit">Next</button >
             </form>
+            <button><Link to={`/add-candidates`}>Next</Link></button>
         </>
     )
 }
